@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="https://kit.fontawesome.com/9092873d2f.js" crossorigin="anonymous"></script>
+    <script>
+        window.onload = function() {
+            alert("Bienvenue sur B£N Store ! Nous vous remercions de votre visite. Si un produit vous intéresse, n’hésitez pas à nous contacter. !");
+        };
+        function afficherMessage() {
+            alert("si ce produit vous intéresse,merci de nous contacter en cliquant  sur l'icon whatsapp !");
+        }
+
+    </script>
+
+    <title>BEN Store</title>
+</head>
+<body>
+    <div class="headers">
+            <header>
+                <div class="navbar">
+                <div class="logo">
+                    <a href="#" class="name">B£N Store</a>
+                    <div class="logobas"><img src="img/photo_2025-05-01_15-40-00.jpg"></div>
+                </div>
+                <ul class="links">
+                    <li><a href="#image">Acceuil</a></li>
+                    <li><a href="#articles">Articles</a></li>
+                    <li><a href="#about">A Propos</a></li>
+                    <li><a href="#contact2">constact</a></li>
+                </ul>
+                <div class="burger-menu-button">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+            <div class="burger-menu ">
+                <ul class="links">
+                    <li><a href="#image">Acceuil</a></li>
+                    <li><a href="#articles">Articles</a></li>
+                    <li><a href="#about">A Propos</a></li>
+                    <li><a href="#contact2">constact</a></li>
+                </ul>
+            </div>
+            </header>
+            <script>
+                const burgerMenuButton = document.querySelector('.burger-menu-button')
+                const burgerMenuButtonIcon = document.querySelector('.burger-menu-button i')
+                const burgerMenu = document.querySelector('.burger-menu')
+        
+                burgerMenuButton.onclick = function(){
+                    burgerMenu.classList.toggle('open')
+                    const isOpen = burgerMenu.classList.contains('open')
+                    burgerMenuButtonIcon.classList = isOpen ? 'fa-solid fa-xmark': 'fa-solid fa-bars'
+                }
+            </script>
+        </div>
+    
+    <div id="image">
+        <div class="container">
+            <div class="wrapper">
+                <div class="wrapper-holder">
+                    <div id="slider-img1"></div>
+                    <div id="slider-img2"></div>
+                    <div id="slider-img3"></div>
+                    <div id="slider-img4"></div>
+                    <div id="slider-img5"></div>
+                    <div id="slider-img6"></div>
+                </div>
+            </div>
+            <div class="button-holder">
+                <a href="#slider-img1" class="button"></a>
+                <a href="#slider-img2" class="button"></a>
+                <a href="#slider-img3" class="button"></a>
+                <a href="#slider-img4" class="button"></a>
+                <a href="#slider-img5" class="button"></a>
+                <a href="#slider-img6" class="button"></a>
+            </div>
+        </div>
+                
+    </div>
+    <div id="present">
+    <div class="contact" id="contact1">
+        
+            
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=massb7022@gmail.com" style="--color: #f6f0f0" class="contact">
+                <i class="fa-solid fa-envelope"></i>
+            </a>
+            <a href="https://wa.me/688070845" style= "--color: #25D366" class="contact">
+                <i class="fa-brands fa-whatsapp"></i>
+            </a>
+            <a href="#" style="--color:#4267B2" class="contact">
+                <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="#" style="--color: #FF0050" class="contact">
+                <i class="fa-brands fa-tiktok"></i>
+            </a>
+            <a href="#" style="--color: #E1306C" class="contact">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            
+    </div>
+    <div class="txt">
+        <div class="leftline">
+        </div>
+        <p>Nos Articles</p>
+        <div class="rightline">
+        </div>
+    </div>
+    <section id="articles" class="gallery">
+
+        <div class="gallery-grid">
+          <img src="img/h (1).jpg" alt="image"  onclick="afficherMessage()">
+          <img src="img/h (2).jpg" alt="image"  onclick="afficherMessage()">
+          <img src="img/h (3).jpg" alt="image"  onclick="afficherMessage()">
+          <img src="img/h (4).jpg" alt="image"  onclick="afficherMessage()">
+          <img src="img/h (5).jpg" alt="image"  onclick="afficherMessage()">
+          <img src="img/h (6).jpg" alt="image"  onclick="afficherMessage()">
+          <img src="img/h (7).jpg" alt="image"  onclick="afficherMessage()">
+          <img src="img/h (8).jpg" alt="image"  onclick="afficherMessage()">
+        </div>
+      </section>
+    </div>
+    <footer>
+        <section class="resume">
+         <div class="fin">
+            <div class="logdesc" align="left">
+                <div class="logobas"><img src="img/photo_2025-05-01_15-40-00.jpg" class="a"></div>
+                <div class="desc" id="about"><p>Bienvenue sur notre site de e-commerce, B£N Store<br> conçu pour promouvoir divers articles. <br> Nous vous remercions de votre visite et <br> sommes ouverts à vos précieux retours <br> pour l'améliorer davantage.</p></div>
+
+            </div>
+            <div class="tablink">
+                <table width="20%"   color="black"  >                                                                       
+                  <tr><th><dd><strong><h3>PAGES</h3> </strong> </dd></th></tr>
+                  <tr><th><dd></dd></th></tr> 
+               <tr><th><dd><a href="#image">Acceuil</a></dd></th></tr> 
+               <tr><th><dd></dd></th></tr>
+             <tr><th><dd><a href="#articles">Articles</a> </dd></th> </tr>  
+             <tr><th><dd></dd></th></tr>
+              <tr><th> <dd><a href="#about">A Propos</a></dd></th></tr> 
+              <tr><th><dd></dd></th></tr>
+               <tr><th><dd><a href="#contact1">constact </a></dd></th></tr> 
+               <tr><th><dd></dd></th></tr>
+             
+        </table>
+        
+            </div>
+            <div class="contact2" id="contact2">
+                <table width="20%" color="black" align="center" >
+                    
+                  <tr><th><dd><strong><h3>  
+                    CONTACT
+                </h3></strong> </dd></th></tr> 
+                  <tr><th><dd></dd></th></tr>
+               <tr><th><dd class="icon"> 
+                    <a href="https://wa.me/688070845" style= "--color: #25D366"class="contact">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                    <a href="#" style="--color:#4267B2"class="contact">
+                        <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    
+                </dd></th></tr> 
+                <tr><th><dd></dd></th></tr>
+             <tr><th><dd class="icon">   
+                     <a href="#" style="--color: #FF0050"class="contact">
+                        <i class="fa-brands fa-tiktok"></i>
+                    </a>
+                    <a href="#" style="--color: #E1306C"class="contact">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+            </dd></th></tr>
+            <tr><th><dd></dd></th></tr>  
+              <tr><th><dd class="icon">
+                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=massb7022@gmail.com" style="--color: #f6f0f0" class="contact">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>   
+                    <a href="tel :+237" style="--color: #f6f0f0" class="contact">
+                        <i class="fa-solid fa-phone"></i>
+                    </a>
+                </dd></th></tr>   
+            <tr><th><dd></dd></th></tr>
+               
+        </table>
+
+            </div>
+        </div>
+    </section>
+            <div class="copyright">
+                @copyright by B£N
+            </div>
+
+    </footer>
+</body>
+</html>
